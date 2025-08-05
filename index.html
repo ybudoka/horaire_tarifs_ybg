@@ -8,11 +8,12 @@
     {{style}}
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="position: relative; z-index: 1;">
         <h1>{{title}}</h1>
         <div class="section" id="horaire-section">
             <div class="section-title">Horaire des cours</div>
-            <table border='1' cellpadding='5'><tr><th>Cours</th><th>Date</th><th>Heure d?but</th><th>Heure fin</th><th>Tarif de base</th><th>Cotisation</th><th>Total</th><th>Complementaire</th><th>Complementaire 2</th><th>?tudiant 13-17 ans</th></tr><tr>
+            <table border='1' cellpadding='5'><tr><th>Cours</th><th>Date</th><th>Heure d?but</th><th>Heure fin</th><th>Session</th><th>Cl?</th><th>Tarif de base</th><th>Cotisation</th><th>Total</th><th>Compl</th><th>Compl 2</th><th>?tudiant
+13-17 ans</th></tr><tr>
       <td>Motricit? (MiniBudo) (2 ? 3,5 ans)</td>
       <td>Saturday 13 September 2025</td>
       <td>19:00</td>
@@ -90,5 +91,13 @@
       </tr></table>
         </div>
     </div>
+    <style>
+        body {
+            background-image: url('fond_horaire_tarifs.png');
+            background-size: cover;
+            background-repeat: repeat;
+            background-position: center center;
+        }
+    </style>
 </body>
 </html>
