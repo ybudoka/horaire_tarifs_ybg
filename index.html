@@ -97,23 +97,6 @@
         </div>
     </div>
     <script>
-        
-        const horaireData = [
-            { day: 'Lundi', time: '18:00 - 19:30', type: 'Karat?', location: 'Dojo Principal' },
-            { day: 'Mardi', time: '17:00 - 18:30', type: 'Judo', location: 'Dojo Annexe' },
-            { day: 'Mercredi', time: '19:00 - 20:30', type: 'A?kido', location: 'Dojo Principal' },
-            { day: 'Jeudi', time: '18:00 - 19:30', type: 'Karat?', location: 'Dojo Principal' },
-            { day: 'Vendredi', time: '17:00 - 18:30', type: 'Judo', location: 'Dojo Annexe' },
-            { day: 'Samedi', time: '10:00 - 11:30', type: 'A?kido', location: 'Dojo Principal' },
-            { day: 'Dimanche', time: 'Ferm?', type: '', location: '' }
-        ];  
-        
-        const tarifsData = [
-            { subscription: 'Mensuel', duration: '1 mois', price: '50 ?' },
-            { subscription: 'Trimestriel', duration: '3 mois', price: '135 ?' },
-            { subscription: 'Annuel', duration: '12 mois', price: '480 ?' },
-            { subscription: 'Cours ? l\'unit?', duration: '1 cours', price: '10 ?' }
-        ];
 
         function renderTable(tableId, data, columns) {
             const tbody = document.querySelector(`#${tableId} tbody`);
